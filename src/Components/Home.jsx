@@ -9,12 +9,12 @@ function Home() {
   },[])
   return (
     <>
-    <div className="navigation d-flex justify-content-center my-5">
+    <div className="navigation d-md-flex justify-content-center my-5">
     <img src={logo} alt="logo" />
     <h1 className='fw-bolder'>Furniro</h1>
     </div>
-    <div className='homeContents d-flex justify-content-center align-items-center'>
-          <div style={{width:'643px',height:'auto', backgroundColor:'bisque',marginRight:'100px'}} className='hh ms-auto p-5 border rounded' data-aos="fade-left">
+    <div className='homeContents d-lg-flex justify-content-center align-items-center'>
+          <div style={{width:'500px', backgroundColor:'bisque',marginRight:'100px'}} className='hh ms-auto p-5 border rounded' data-aos="fade-left">
             <h5>New Arrival</h5>
             <h1 style={{fontSize:'70px'}}>Discover Our </h1>
             <h1 style={{fontSize:'70px'}}>New Collection</h1>

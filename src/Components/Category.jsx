@@ -26,6 +26,7 @@ function Category() {
                             </Card.Body>
                         </Card>
                     </div>
+                    <div className="col"></div>
                     <div className="col-lg-4 my-5 d2" data-aos="flip-up">
                     <Card style={{ width: '380px',height:'480px'}}>
                             <Card.Img variant="top" src={living} />
@@ -34,7 +35,8 @@ function Category() {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-lg-4 my-5 d3" data-aos="flip-right">
+                    <div className="col"></div>
+                    <div className="col-lg-3 my-5 d3" data-aos="flip-right">
                     <Card style={{ width: '380px',height:'480px'}}>
                             <Card.Img variant="top" src={bedroom} />
                             <Card.Body>
